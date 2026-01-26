@@ -1104,7 +1104,7 @@ _CFramenew23(-1180, -93, 1462)
 local _ = _call63:WaitForChild('Level').Value
 local _call2094 = _call2075:MakeWindow({
     [1] = 'Desplock Hub : Meme Sea',
-    [2] = 'by Plock4444,
+    [2] = 'by Plock4444',
     [3] = 'redzHub-MemeSea.json',
 })
 
