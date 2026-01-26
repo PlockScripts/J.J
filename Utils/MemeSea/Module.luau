@@ -44,7 +44,12 @@ local Skill_DB = {}
 local Module = {} do
   Module.__index = Module
   
-  Module.MaxLevel = MSetting.Setting.MaxLevel
+  local ml = MSetting.Setting.MaxLevel
+Module.MaxLevel = tonumber(
+    typeof(ml) == "Instance" and ml.Value
+    or typeof(ml) == "table" and ml.Value
+    or ml
+) or 0
   Module.PassesPrice = MSetting.Setting.Gamepasses_Cost
   Module.BL_Spawns = MSetting.Setting.IgnoreSpawnPoints
   Module.PassesId = {}
