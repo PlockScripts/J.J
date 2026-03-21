@@ -703,7 +703,7 @@ ScreenGui.Parent = CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local ToggleButton = Instance.new("ImageButton")
-ToggleButton.Size = UDim2.new(0, 90, 0, 90)
+ToggleButton.Size = UDim2.new(0, 80, 0, 80)
 ToggleButton.Position = UDim2.new(0.15, 0, 0.15, 0)
 ToggleButton.BackgroundTransparency = 1
 ToggleButton.BorderSizePixel = 0
